@@ -1,0 +1,24 @@
+{
+    "name": "yng/session",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yng"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yng\\Session\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "extra": {
+        "yng": {
+            "config": {
+                "session": "publish/session.php"
+            }
+        }
+    }
+}
